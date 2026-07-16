@@ -11,11 +11,13 @@
     border-radius:8px;
     padding:18px 35px;
     font-size:18px;
+    font-weight: 700;
 }
 
 .white-button:hover{
     background-color: #3167D9;
     color: #FFFFFF;
+    font-weight: 700;
 }
 /*Common button (color)*/
 
@@ -28,11 +30,13 @@
     font-size:18px;
     cursor:pointer;
     border: 2px solid #3167D9;
+    font-weight: 700;
 }
 .color-button:hover{
     background-color: #ffffff;
     color: #3167D9;
     border:2px solid #3167D9;
+    font-weight: 700;
 
 }
 .container{
@@ -154,5 +158,45 @@
 .card p,
 .card a{
     padding: 10px 0px;
+}
+
+.about-us{
+    background-color: #F3F5F9;
+}
+.about-info{
+    display: flex;
+    background-color: #3167D9;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.about-txt,
+.about-img{
+    padding: 25px 50px;
+    flex: 1;
+
+}
+
+.about-txt h4{
+    padding: 10px 0px;
+    color: #2DDFCC;
+}
+.about-txt h1{
+    color: #FFFFFF;
+    padding: 10px 0px;
+}
+.about-txt p{
+    color: #FFFFFF;
+}
+.about-txt .white-button{
+  margin-top: 15px;
+  color: #3167D9;
+  font-weight: 700;
+}
+
+.about-txt .white-button:hover{
+    background-color: #2DDFCC;
+    font-weight: 700;
+    color: #000000;
 }
 
