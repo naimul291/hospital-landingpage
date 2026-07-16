@@ -118,6 +118,41 @@
     gap: 10px;
     align-items: center;
 }
+
 .hero-txt h3{
     color: #2DDFCC;
 }
+.services{
+    background-color: #F3F5F9;
+    padding-top: 40PX;
+    
+}
+.service-info{
+    display: flex;
+    flex-direction: column;
+}
+.service-head{
+    text-align: center;
+}
+.service-head h4{
+    color: #2DDFCC;
+}
+.service-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px 0px;
+}
+
+.card{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card img,
+.card h3,
+.card p,
+.card a{
+    padding: 10px 0px;
+}
+
