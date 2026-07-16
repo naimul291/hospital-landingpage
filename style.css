@@ -162,6 +162,7 @@
 
 .about-us{
     background-color: #F3F5F9;
+    padding-bottom: 50px;
 }
 .about-info{
     display: flex;
@@ -199,4 +200,46 @@
     font-weight: 700;
     color: #000000;
 }
+.doctors-head{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.doctors-name{
+    display: flex;
+    gap: 45px;  
+}
+
+.doctors{
+    background-color: #bbd0ff;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.doctors{
+    background-color: #bbd0ff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.doctors-last{
+    background-color: #bbd0ff;
+    padding: 20px 0px 20px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.doctors span{
+    font-weight:700;
+}
+.doctors-head h1{
+    padding-top: 10px;
+}
+.doctors-head h4{
+   color: #2DDFCC;
+}
