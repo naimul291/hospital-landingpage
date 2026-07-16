@@ -243,3 +243,61 @@
 .doctors-head h4{
    color: #2DDFCC;
 }
+.testimonial{
+    display: flex;
+    margin-top:80px ;
+    background-color: #F3F5F9;
+}
+.testimonial-head-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.review{
+   background-color: #a6fff8;
+   margin-top:20px;
+   padding: 20px;
+   border-radius: 10px;
+}
+.review-img{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    gap: 15px;
+}
+.reviewer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #3167D9;
+}
+
+.contact{
+    background-color: #F3F5F9;
+    padding-top: 80px;
+}
+.contact-info{
+    display: flex;
+    background-color: #3167D9;
+    border-radius: 10px;
+    padding: 20px;
+}
+.contact-txt{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: 15px;
+}
+.contact-txt textarea{
+    border: black solid 1px;
+}
+.contact-txt button:hover{
+    background-color: #2DDFCC;
+    font-weight: 700;
+    color: #000000;
+}
+.contact-img,
+.contact-txt{
+    flex: 1;
+}
